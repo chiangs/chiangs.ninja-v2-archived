@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>the Osmotic Mind-Articles</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/articlesStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500,900|Quicksand" rel="stylesheet">
+
+    <!-- For new browsers - multisize ico  -->
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="images/favicon.ico">
+
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon-152.png">
+
+    <!-- Chrome for Android -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="192x192" href="favicon-192.png">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function() {
+            console.log("ready!");
+        });
+    </script>
+</head>
+
+<body>
+
+    <!--Begin Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" id="logo" href="contact.html"><img src="images/navbar-brand.png" alt="the Osmotic Mind"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="bold" href="index.html">home</a></li>
+                    <li><a class="bold" href="about.html">about Stephen</a></li>
+                    <li class="active"><a href="articles.html">articles</a></li>
+                    <li><a class="bold" href="projects.html">projects</a></li>
+                    <li><a class="bold" href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Begin Content-->
+
+    <div class="container" id="main-container">
+        <h1 class="articles-title">Squeezing the sponge</h1>
+
+        <!-- blog-nav -->
+        <div class="blog-nav">
+            <div class="row">
+                <div class="col-xs-12 col-md-2 col-md-push-10">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="articles.html">Go to Top</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">2017
+            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="articles.html#post-5">23.JAN.17-the 'void'</a></li>
+                                <li><a href="articles.html#post-4">12.JAN.17-loops</a></li>
+                                <li><a href="articles.html#post-3">11.JAN.17-'double' to 'int'</a></li>
+                                <li><a href="articles.html#post-2">10.JAN.17-Math.random()</a></li>
+                                <li><a href="articles.html#post-1">09.JAN.17-'if/else' vs. 'switch'</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">2016
+            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Still messing with the HTML/CSS</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">2015
+            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">This blog didn't exist</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- blog-pane -->
+            <div class="col-xs-12 col-md-10" id="blog-pane">
+                <div class="well" id="post-1">
+                    <h2>&#x278A; When to SWITCH and when to IF/ELSE.</h2>
+                    <h4>09.JAN.17</h4>
+                    <p>Both IF/ELSE and SWITCH are ways to compare variables. But which should you use and when?</p>
+                    <p>Do you have multiple conditions and need to check through many logical decisions? IF/ELSE is the way to go. It allows you to quickly compare conditions that depend on user input.</p>
+                    <p>Do you have a single variable you are switching from that makes it easy to jump directly to the right value? SWITCH is the construct you are looking for. SWITCH can be optimised by the compiler so you get 'faster' code depending on
+                        how long the list of checks are.</p>
+                    <p>In essence, a SWITCH is really saying "pick one of these based on this variable's VALUE", but an IF/ELSE statement is a series of boolean checks of TRUE/FALSE and states that this portion of code depends on a number of possible variables
+                        rather than a single one.</p>
+                </div>
+                <div class="well" id="post-2">
+                    <h2>&#x278B; What is 'Math'? A '.random()' question.</h2>
+                    <h4>10.JAN.17</h4>
+                    <p>In Java, 'Math' is a class of methods for performing basic numeric operations. 'Math', is capitalized because it is a static class of basic numeric functions for computation of primitives within the 'java.lang' package; it's static
+                        because there are no stand-alone functions in Java, so they all need to be a member of a class, and in many cases do not require it to be applied to an object.</p>
+                    <p>When you append '.random()' to the Math class, it returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. The result is random and can be used to add some random variability in methods when needed
+                        (e.g., a basic game of Rock, Paper, Scissors.).</p>
+                    <pre>
+public class RockPaperScissors {
+    public static void main(String[] args) {
+
+        rps = Math.random();
+        if ( rps < 0.333333 ) { //will be true 1/3 of the time
+        System.out.println( "Rock" );
+        }
+        else if ( rps < 0.6666667 ) {
+        System.out.println( "Paper" );
+        }
+        else {
+        System.out.println( "Scissors" );
+        }
+    }
+}
+</pre>
+                </div>
+                <div class="well" id="post-3">
+                    <h2>&#x278C; What kind of sorcery is this? 'Casting' a DOUBLE to an INT.</h2>
+                    <h4>11.01.17</h4>
+                    <p>A DOUBLE and INT are both arithmetic variables, but different data types. An INT is more exact, as it requires the variable to be a whole number (e.g., 1, 24, 73, 99, etc.). An INT is a variable with decimals, or fraction, to denote
+                        a floating number (e.g., 1.2, 6.0., 99.999, etc.). They are also different in terms of number of bits used to store the variable's value.</p>
+                    <p>When using a DOUBLE and INT together in Java, and many similar languages, it is often more convenient to use DOUBLES on calculations because of their flexibility or precision. However, sometimes after the computations are done, one
+                        might wish to simplify the result for the rest of the process. To do this, you cast the DOUBLE to an INT, simplifying the decimal number to a whole number.</p>
+                    <div class="well">
+                        <p>In Java, there are several ways to do this:</p>
+                        <p>Explicit Cast - (int) doubleValue; this will remove the decimal value of the double and keep the whole number but without rounding. In the example below, the .7 just drops resulting with INT value of 24.</p>
+                        <pre>
+public class DoubleToInt {
+    public static void main(String[] args) {
+        double doubleValue = 24.7;
+        int intValue = (int) doubleValue;
+        System.out.println("The int value is: " + intValue);
+    }
+}</pre>
+                        <p>Cast with Rounding - Math.round(doubleValue); Math.round accepts a double value to round it to the next whole number. Then we can cast it to an integer, resulting in an INT rounded up. In the example below, the result is an INT
+                            of 25.</p>
+                        <pre>
+public class DoubleToIntRound {
+    public static void main(String[] args) {
+        double doubleValue = 24.7;
+        long longValue = Math.round(doubleValue);
+        int intValue = (int) longValue;
+        System.out.println("The int value is: " + intValue);
+   }
+}</pre>
+                        <p>Casting with - Double.intValue(); if the DOUBLE is an object of class 'Double', Double.intValue() can be used. In the example below, the result is an INT of 24.</p>
+                        <pre>
+public class DoubleToInt {
+    public static void main(String[] args) {
+        Double doubleObject = 24.7;
+        int intValue = doubleObject.intValue();
+        System.out.println("The int value is: " + intValue);
+   }
+}
+</pre>
+
+
+                    </div>
+
+
+                </div>
+                <div class="well" id="post-4">
+                    <h2>&#x278D; What is the difference between a ‘for’, ‘while’ and ‘do while’ loop?</h2>
+                    <h4>12.JAN.12</h4>
+                    <p>Loops in Java, and many similar programming languages, are a set of decision-making statements. They check a statement, or a group of them, and execute the body of the loop while the condition is true. There are three types of loops:
+                        <ol>
+                            <li>For loops</li>
+                            <li>While loops</li>
+                            <li>Do While loops</li>
+                        </ol>
+                    </p>
+                    <p>Each loop type differs in small but important ways. A 'for' loop iterates over a finite range of values until a particular condition is satisfied. It first checks the condition and if true, enters the loop until condition is no longer
+                        true. This is the most common type of loop when you have a list of items that you need to 'iterate' over for processing.
+                        <br>
+                        <br>The 'while' loop is sometimes called a “pre-test” loop because it checks the condition first, while the 'do-while' is called a “post-test” loop because it checks the condition after running the body of the loop at least once.
+                        These two loops are great when you don't want to repeat code a number of times, rather, keep looping through the code until a certain condition is met (or in other words, keep looping while the condition is true). It looks like
+                        this:
+                        <ol>
+                            <li>Check the 'while' loop condition, if false, don’t execute any code inside the block.</li>
+                            <li>If condition is true, execute code inside 'while' block</li>
+                            <li>Repeat step 1.</li>
+                        </ol>
+                        <p>So why bother to make a do-while loop function when most often a 'while' loop is all that's required? Sometimes you need a 'do while' because what is being checked in the condition is something you don’t really know until you have
+                            gone through the body of the loop at least once.
+                            <ol>
+                                <li>Executes the code in loop.</li>
+                                <li>Checks the condition, if true, continues to execute the loop.</li>
+                                <li>If false, exits the loop.</li>
+                            </ol>
+                        </p>
+                    </p>
+                </div>
+                <div class="well" id="post-5">
+                    <h2>&#x278E; Explaining the 'void'</h2>
+                    <h4>23.JAN.17</h4>
+                    <p>Java programmers are very familiar with the main method, but it's common to forget what it really means. Here's what it looks like:</p>
+                    <pre>
+    public class SomeName {
+        public static void main(String args) {
+
+        }
+    }
+</pre>
+                    <p>
+                        <br>In a nutshell, the main method 'signature' can probably be thought of as providing all the information there is about the interface to the method; it provides all the information that you need to know to be able to invoke the
+                        method.
+                        <br>
+                        <ul>
+                            <li>Main is 'public' so that its visible to every other class, even to which are not part of its package.</li>
+                            <li>Main is 'static' in Java so that it is indicated as a class method, so that it can be called without creating any instance.</li>
+                            <li>Main is 'void' because the method itself doesn't return any value, but the return type must be indicated even if 'nothing'.</li>
+                        </ul>
+                    </p>
+                    <p>And now, we know!</p>
+                </div>
+            </div>
+            <!-- /blog-pane -->
+        </div>
+    </div>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+<!-- Footer -->
+<footer>
+    <div class="footer">
+        <div class="container-fluid ">
+            <p>Coded and designed by <a style="color: #1e88cb" href="mailto:stephen.e.chiang@gmail.com">Stephen Chiang </a>&copy;&nbsp;2016&ensp;|&ensp;
+                <a target="_blank" href="https://www.linkedin.com/in/chiangs"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://500px.com/chiangs"><i class="fa fa-500px" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://github.com/chiangs"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a target="_blank" href="http://codepen.io/chiangs/pens/public/"><i class="fa fa-codepen" aria-hidden="true"></i></a></p>
+        </div>
+    </div>
+</footer>
+
+</html>

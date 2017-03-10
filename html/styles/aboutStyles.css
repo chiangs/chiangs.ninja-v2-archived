@@ -1,0 +1,64 @@
+.jumbotron h2 {
+    padding: 18px 0;
+}
+
+.jumbotron p {
+    line-height: 1.5em;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+#main-container img {
+    width: 100%;
+    display: block;
+}
+
+#profile-card {
+    max-width: 300px;
+    float: none;
+    margin: 50px auto;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding:10px 0 0 5px;
+    text-align: center;
+    background-color: black;
+}
+
+.card-container a {
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+.card-container a:hover {
+    color: #2f7a94;
+    text-decoration: none;
+}
+
+ul.skillBubbles {
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+ul.skillBubbles > .dots {
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.fa-circle, .fa-circle-o {
+    color: rgba(113, 113, 113, 0.81);
+}

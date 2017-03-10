@@ -1,0 +1,41 @@
+#main-container .articles-title {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.well {
+    background: rgba(247, 247, 247, 0.8);
+    margin: 20px 0;
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.well h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.well p {
+    line-height: 150%;
+}
+
+.nav-pills {
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(254, 254, 254, 0.85);
+    position: fixed;
+    z-index: 1;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-pills {
+        position: fixed;
+        top: 40px;
+        right: 5px;
+    }
+}

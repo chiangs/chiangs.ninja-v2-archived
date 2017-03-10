@@ -1,0 +1,42 @@
+#contact-container {
+    background: url("../images/railroad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    padding: 0;
+}
+
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+}
+
+.contact-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact-content h1 {
+    font-size: 4vw;
+}
+
+.contact-content a {
+    color: #fff;
+}
+
+.contact-content ul {
+    padding: 20px 0 40px 0;
+}
+
+.contact-content li {
+    line-height: 3em;
+}
+
+#social-list {
+    margin: 0;
+}
