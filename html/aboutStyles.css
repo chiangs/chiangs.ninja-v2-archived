@@ -49,9 +49,12 @@
     text-decoration: none;
 }
 
+
 ul.skillBubbles {
     list-style-type: none;
     font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 ul.skillBubbles > .dots {
