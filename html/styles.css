@@ -26,8 +26,6 @@ body {
 .navbar-default {
     background-color: #B7E3E4;
     border: none;
-    padding-right: 40px;
-    /*add drop shadow?*/
 }
 
 #logo {
@@ -62,9 +60,12 @@ body {
     color: #F03F35;
     text-transform: uppercase;
     margin: 0 0 0 8px;
+    text-align: center;
 }
 
-#myNavbar a:hover {}
+#myNavbar a:hover {
+    text-align: center;
+}
 
 .active a {
     color: #fff !important;
@@ -99,13 +100,6 @@ body {
     color: #676767;
 }
 
-#index-content .standout {
-    font-weight: bold;
-    font-style: italic;
-    /*background-color: #faff01;*/
-    display: inline;
-}
-
 #homequote {
     display: flex;
     /* establish flex container */
@@ -113,7 +107,7 @@ body {
     /* stack flex items vertically */
     justify-content: flex-end;
     /* center items vertically, in this case */
-    height: 400px;
+    height: 300px;
 }
 
 blockquote {

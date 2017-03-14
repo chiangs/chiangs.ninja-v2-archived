@@ -49,19 +49,17 @@
     text-decoration: none;
 }
 
-
-ul.skillBubbles {
-    list-style-type: none;
-    font-size: 1vw;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+ul.skillList {
+    padding-left: 130px;
 }
 
-ul.skillBubbles > .dots {
-    font-size: 17px;
-    font-weight: 900;
+ul.skillBubbles, ul.skillList {
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .fa-circle, .fa-circle-o {
+    text-align: left;
     color: rgba(113, 113, 113, 0.81);
 }
