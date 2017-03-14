@@ -49,10 +49,6 @@
     text-decoration: none;
 }
 
-ul.skillList {
-    padding-left: 130px;
-}
-
 ul.skillBubbles, ul.skillList {
     list-style-type: none;
     font-size: 14px;
