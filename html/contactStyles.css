@@ -1,4 +1,4 @@
-#contact-container {
+.contact-background {
     background: url("railroad.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,6 +6,7 @@
     position: relative;
     color: #fff;
     padding: 0;
+    height: 95vh;
 }
 
 .overlay {
@@ -28,6 +29,11 @@
 .contact-content a {
     color: #fff;
 }
+
+.contact-content p {
+    font-size: 20px;
+}
+
 
 .contact-content ul {
     padding: 20px 0 40px 0;
