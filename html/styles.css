@@ -20,6 +20,11 @@ body {
     text-align: center;
 }
 
+.bold1 {
+    font-weight: bold;
+    font-family: monospace;
+}
+
 
 /* NavBar */
 
