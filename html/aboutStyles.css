@@ -49,6 +49,10 @@
     text-decoration: none;
 }
 
+ul.skillList {
+    text-align: right;
+}
+
 ul.skillBubbles, ul.skillList {
     list-style-type: none;
     font-size: 14px;

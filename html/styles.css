@@ -76,9 +76,9 @@ body {
 
 /* Index */
 
-html {
+.index-main {
     background-image:url("beach.jpg");
-    background-size: cover;
+    background-size:cover;
 }
 
 .title-top {
@@ -92,6 +92,10 @@ html {
 
 .author {
     color: #5b6a6d;
+}
+
+#index-content {
+    height:95vh;
 }
 
 #index-content h1 {
@@ -116,9 +120,10 @@ html {
 }
 
 blockquote {
-    background: #f9f9f9;
+    text-align: left;
+    background: rgba(249, 249, 249, 0.85);
     border-left: 10px solid #b7e3e4;
-    margin: 1.5em 10px;
+    margin: .5vh 7vw;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
 }
@@ -136,15 +141,23 @@ blockquote p {
     display: inline;
 }
 
-.announcement {
-    text-align: right;
-}
 
-.announcement img {
-    width: 5vw;
+.announcement  {
+    width: 2vw;
     height: auto;
 }
+#unavail-content {
+    text-align: center;
+}
 
+#unavail-content h1 {
+    text-align: center;
+    font-size: 8vw;
+}
+
+#unavail-content img {
+    height: 20vh;
+}
 
 /* Footer */
 
@@ -164,7 +177,7 @@ footer {
 
 .footer p, a {
     font-size: calc(.7em + .2vw);
-    color: #A8A8A8;
+    color: #878686;
 }
 
 .footer a:hover {
