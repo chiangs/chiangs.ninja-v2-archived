@@ -76,6 +76,11 @@ body {
 
 /* Index */
 
+html {
+    background-image:url("beach.jpg");
+    background-size: cover;
+}
+
 .title-top {
     padding: 0;
     margin: 0;
@@ -131,6 +136,15 @@ blockquote p {
     display: inline;
 }
 
+.announcement {
+    text-align: right;
+}
+
+.announcement img {
+    width: 5vw;
+    height: auto;
+}
+
 
 /* Footer */
 
@@ -139,6 +153,7 @@ footer {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
