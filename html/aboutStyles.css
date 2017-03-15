@@ -63,3 +63,8 @@ ul.skillBubbles, ul.skillList {
     text-align: left;
     color: rgba(113, 113, 113, 0.81);
 }
+
+.lang {
+    padding-top: 20px;
+    text-align: center;
+}
