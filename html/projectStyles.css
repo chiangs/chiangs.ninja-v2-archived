@@ -24,7 +24,7 @@
     border-radius: 15%;
 }
 
-.icon .text {
+.icon .text a{
 position:relative;
 left:-15px;
 color: rgba(255, 255, 255, 0);
@@ -34,7 +34,7 @@ transition: .3s ease-in-out;
 text-decoration:none;
 }
 
-.icon:hover .text {
+.icon:hover .text a{
 visibility:visible;
 text-decoration: none;
 color: black;
