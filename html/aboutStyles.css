@@ -68,3 +68,7 @@ ul.skillBubbles, ul.skillList {
     padding-top: 20px;
     text-align: center;
 }
+
+.lang .languages {
+    font-size: calc(112.5% + 1vw) 
+}
