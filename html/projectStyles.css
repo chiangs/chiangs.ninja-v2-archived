@@ -6,6 +6,10 @@
     border-radius: 15%;
 }
 
+.icon {
+    padding-bottom: 50px;
+}
+
 @media all and (min-width: 900px) {
     .projectthumbs #inv {
         width: 10vw;
