@@ -55,7 +55,7 @@ ul.skillList {
 
 ul.skillBubbles, ul.skillList {
     list-style-type: none;
-    font-size: 14px;
+    font-size: calc(60% + .25vw);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -70,5 +70,5 @@ ul.skillBubbles, ul.skillList {
 }
 
 .lang .languages {
-    font-size: calc(112.5% + 1vw) 
+    font-size: calc(112.5% + 1vw)
 }
