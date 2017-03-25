@@ -1,5 +1,10 @@
 .projectthumbs {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 10vw;
+    justify-content: center;
 }
 
 #inv {
@@ -50,13 +55,4 @@
 .license {
     font-size: 10px;
     text-align: right;
-}
-
-
-.projectthumbs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 10vw;
-    justify-content: center;
 }
