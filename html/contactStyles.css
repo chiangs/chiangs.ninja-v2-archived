@@ -1,50 +1,52 @@
-.contact-background {
-    background: url("railroad.jpg");
-    background-size: cover;
-    height: 95vh;
-}
+    .contact-background {
+        background: url("railroad.jpg");
+        background-size: 100% 100%;
+    }
 
-.overlay {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.35);
-    color: white;
-}
+    @media all and (min-width: 737px) {
+        .contact-background {
+            background: url("railroad.jpg");
+            background-size: cover;
+            height: 95vh;
+        }
+    }
 
-.contact-content {
-    text-align: center;
-    padding: 50px 0;
-}
+    .overlay {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.35);
+        color: white;
+    }
 
-.contact-content h1 {
-    font-size: calc(15% + 3vw)
+    .contact-content {
+        text-align: center;
+        padding: 50px 0;
+    }
 
-}
+    .contact-content h1 {
+        font-size: calc(15% + 3vw)
+    }
 
-.contact-content a {
-    color: #fff;
-    font-size: calc(20% + 1vw)
+    .contact-content a {
+        color: #fff;
+        font-size: calc(20% + 1vw)
+    }
 
-}
+    .contact-content p {
+        font-size: 20px;
+        font-size: calc(20% + 1vw)
+    }
 
-.contact-content p {
-    font-size: 20px;
-    font-size: calc(20% + 1vw)
+    .contact-content ul {
+        padding: 20px 0 20px 0;
+        font-size: calc(20% + 1vw)
+    }
 
-}
+    .contact-content li {
+        line-height: 3em;
+    }
 
-
-.contact-content ul {
-    padding: 20px 0 20px 0;
-    font-size: calc(20% + 1vw)
-
-}
-
-.contact-content li {
-    line-height: 3em;
-}
-
-#social-list {
-    margin: 0;
-}
+    #social-list {
+        margin: 0;
+    }
