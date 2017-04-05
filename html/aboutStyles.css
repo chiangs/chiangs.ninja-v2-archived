@@ -84,3 +84,8 @@ ul.skillBubbles, ul.skillList {
 .lang .languages {
     font-size: calc(112.5% + 1vw)
 }
+
+.atom {
+    max-width: 1em;
+    float: right;
+}
