@@ -10,6 +10,10 @@
     background-color: transparent !important;
 }
 
+.download {
+    color: #F03F35;
+}
+
 #main-container img {
     width: 100%;
     display: block;
@@ -19,6 +23,14 @@
     max-width: 300px;
     float: none;
     margin: 50px auto;
+}
+
+#profile-card h4 {
+    color: #2f7a94;
+}
+
+#profile-card a:hover{
+    color: rgb(255, 153, 0);
 }
 
 .card {
@@ -34,7 +46,7 @@
 
 /* Add some padding inside the card container */
 .card-container {
-    padding:10px 0 0 5px;
+    padding:10px 0 5px 5px;
     text-align: center;
     background-color: black;
 }
