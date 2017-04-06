@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="articlesStyles.css">
+    <link rel="stylesheet" href="prism.css"  />
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,900|Quicksand" rel="stylesheet">
 
     <!-- For new browsers - multisize ico  -->
@@ -125,8 +126,8 @@
 
             </div>
             <div class="col-xs-12 col-md-10" id="blog-pane">
-                <div class="well" id="post-1">
-                    <h2>&#x278A; When to SWITCH and when to IF/ELSE.</h2>
+                <div class="well" id="post-5">
+                    <h2>&#x278E; When to SWITCH and when to IF/ELSE.</h2>
                     <h4>09.JAN.17</h4>
                     <p>Both IF/ELSE and SWITCH are ways to compare variables. But which should you use and when?</p>
                     <p>Do you have multiple conditions and need to check through many logical decisions? IF/ELSE is the way to go. It allows you to quickly compare conditions that depend on user input.</p>
@@ -135,14 +136,14 @@
                     <p>In essence, a SWITCH is really saying "pick one of these based on this variable's VALUE", but an IF/ELSE statement is a series of boolean checks of TRUE/FALSE and states that this portion of code depends on a number of possible variables
                         rather than a single one.</p>
                 </div>
-                <div class="well" id="post-2">
-                    <h2>&#x278B; What is 'Math'? A '.random()' question.</h2>
+                <div class="well" id="post-4">
+                    <h2>&#x278F; What is 'Math'? A '.random()' question.</h2>
                     <h4>10.JAN.17</h4>
                     <p>In Java, 'Math' is a class of methods for performing basic numeric operations. 'Math', is capitalized because it is a static class of basic numeric functions for computation of primitives within the 'java.lang' package; it's static
                         because there are no stand-alone functions in Java, so they all need to be a member of a class, and in many cases do not require it to be applied to an object.</p>
                     <p>When you append '.random()' to the Math class, it returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. The result is random and can be used to add some random variability in methods when needed
                         (e.g., a basic game of Rock, Paper, Scissors.).</p>
-                    <pre>
+                    <pre class="language-java"><code>
 public class RockPaperScissors {
     public static void main(String[] args) {
 
@@ -158,7 +159,7 @@ public class RockPaperScissors {
         }
     }
 }
-</pre>
+</code></pre>
                 </div>
                 <div class="well" id="post-3">
                     <h2>&#x278C; What kind of sorcery is this? 'Casting' a DOUBLE to an INT.</h2>
@@ -167,20 +168,20 @@ public class RockPaperScissors {
                         a floating number (e.g., 1.2, 6.0., 99.999, etc.). They are also different in terms of number of bits used to store the variable's value.</p>
                     <p>When using a DOUBLE and INT together in Java, and many similar languages, it is often more convenient to use DOUBLES on calculations because of their flexibility or precision. However, sometimes after the computations are done, one
                         might wish to simplify the result for the rest of the process. To do this, you cast the DOUBLE to an INT, simplifying the decimal number to a whole number.</p>
-                    <div class="well">
+
                         <p>In Java, there are several ways to do this:</p>
                         <p>Explicit Cast - (int) doubleValue; this will remove the decimal value of the double and keep the whole number but without rounding. In the example below, the .7 just drops resulting with INT value of 24.</p>
-                        <pre>
+                        <pre><code class="language-java">
 public class DoubleToInt {
     public static void main(String[] args) {
         double doubleValue = 24.7;
         int intValue = (int) doubleValue;
         System.out.println("The int value is: " + intValue);
     }
-}</pre>
+}</code></pre>
                         <p>Cast with Rounding - Math.round(doubleValue); Math.round accepts a double value to round it to the next whole number. Then we can cast it to an integer, resulting in an INT rounded up. In the example below, the result is an INT
                             of 25.</p>
-                        <pre>
+                        <pre><code class="language-java">
 public class DoubleToIntRound {
     public static void main(String[] args) {
         double doubleValue = 24.7;
@@ -188,9 +189,9 @@ public class DoubleToIntRound {
         int intValue = (int) longValue;
         System.out.println("The int value is: " + intValue);
    }
-}</pre>
+}</code></pre>
                         <p>Casting with - Double.intValue(); if the DOUBLE is an object of class 'Double', Double.intValue() can be used. In the example below, the result is an INT of 24.</p>
-                        <pre>
+                        <pre><code class="language-java">
 public class DoubleToInt {
     public static void main(String[] args) {
         Double doubleObject = 24.7;
@@ -198,15 +199,11 @@ public class DoubleToInt {
         System.out.println("The int value is: " + intValue);
    }
 }
-</pre>
-
-
-                    </div>
-
+</code></pre>
 
                 </div>
-                <div class="well" id="post-4">
-                    <h2>&#x278D; What is the difference between a ‘for’, ‘while’ and ‘do while’ loop?</h2>
+                <div class="well" id="post-2">
+                    <h2>&#x278B; What is the difference between a ‘for’, ‘while’ and ‘do while’ loop?</h2>
                     <h4>12.JAN.12</h4>
                     <p>Loops in Java, and many similar programming languages, are a set of decision-making statements. They check a statement, or a group of them, and execute the body of the loop while the condition is true. There are three types of loops:
                         <ol>
@@ -236,17 +233,17 @@ public class DoubleToInt {
                         </p>
                     </p>
                 </div>
-                <div class="well" id="post-5">
-                    <h2>&#x278E; Explaining the 'void'</h2>
+                <div class="well" id="post-1">
+                    <h2>&#x278A; Explaining the 'void'</h2>
                     <h4>23.JAN.17</h4>
                     <p>Java programmers are very familiar with the main method, but it's common to forget what it really means. Here's what it looks like:</p>
-                    <pre>
+                    <pre><code class="language-java">
     public class SomeName {
         public static void main(String args) {
 
         }
     }
-</pre>
+</code></pre>
                     <p>
                         <br>In a nutshell, the main method 'signature' can probably be thought of as providing all the information there is about the interface to the method; it provides all the information that you need to know to be able to invoke the
                         method.
@@ -266,6 +263,7 @@ public class DoubleToInt {
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="prism.js"></script>
 
 </body>
 
