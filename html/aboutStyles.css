@@ -61,6 +61,19 @@
     text-decoration: none;
 }
 
+/* Greyscale to Color profile pic */
+#profile-card img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .4s ease-in-out;
+}
+#profile-card:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
 ul.skillList {
     text-align: right;
 }
