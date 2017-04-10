@@ -3,10 +3,17 @@
     text-align: center;
 }
 
+.well:hover {
+	-webkit-box-shadow: 0 5px 15px 2px rgba(0, 0, 0, .5);
+	box-shadow: 0 5px 15px 2px rgba(0, 0, 0, .5);
+}
+
 .well {
     background: rgba(247, 247, 247, 0.8);
     margin: 20px 0;
     padding-top: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+	transition: 0.3s;
     z-index: 0;
 }
 
