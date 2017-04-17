@@ -7,15 +7,25 @@
     justify-content: center;
 }
 
-#inv {
+.projectthumbs #inv {
     border-radius: 15%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .icon {
     padding-bottom: 50px;
 }
 
-@media all and (min-width: 1367px) {
+@media all and (max-width: 1025px) {
+    .projectthumbs #inv {
+        width: 10vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width: 1025px) {
     .projectthumbs #inv {
         width: 10vw;
         height: auto;
