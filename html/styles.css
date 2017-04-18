@@ -26,7 +26,9 @@ body {
 }
 
 .spacer {
-    min-height: 12vh; 
+    margin-top: 13vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* NavBar */
