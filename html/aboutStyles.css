@@ -1,8 +1,21 @@
 .geomap {
     background-image: url('geomap.png');
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     height: 90vh;
+}
+
+@media all and (max-height: 769px) {
+    .geomap {
+        background-image: url('geomap.png');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        height: 90vh;
+    }
+
+    .geomap h1 {
+        font-size: calc(20.5% + 1vw);
+    }
 }
 
 .whiteText {
