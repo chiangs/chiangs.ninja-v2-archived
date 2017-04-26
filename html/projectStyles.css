@@ -1,3 +1,8 @@
+.inserts {
+    min-height: 40vh;
+    width:  auto;
+}
+
 .projectthumbs {
     text-align: center;
     display: flex;
@@ -7,7 +12,7 @@
     justify-content: center;
 }
 
-.projectthumbs #inv {
+.projectthumbs .iconImg {
     border-radius: 15%;
     height: auto;
     margin: 0 auto;
@@ -18,7 +23,7 @@
 }
 
 @media all and (max-width: 1025px) {
-    .projectthumbs #inv {
+    .projectthumbs .iconImg {
         width: 10vw;
         height: auto;
         margin: 0 auto;
@@ -26,8 +31,8 @@
 }
 
 @media all and (min-width: 1025px) {
-    .projectthumbs #inv {
-        width: 10vw;
+    .projectthumbs .iconImg {
+        width: 7vw;
         height: auto;
         margin: 0 auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -38,7 +43,7 @@
         transition: .3s ease-in-out;
     }
 
-    .projectthumbs #inv:hover {
+    .projectthumbs .iconImg:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
         -webkit-filter: grayscale(0);
         filter: grayscale(0);
