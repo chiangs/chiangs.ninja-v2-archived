@@ -34,6 +34,9 @@ var hoverReplace = function () {
             case 'trackerIcon':
                 $($jumbo).load('partials.html #consumption');
                 break;
+            case 'todoIcon':
+                $($jumbo).load('partials.html #todo');
+                break;
             default:
                 $('#about-jumbo').load('partials.html #default');
         }
