@@ -37,6 +37,9 @@ var hoverReplace = function () {
             case 'todoIcon':
                 $($jumbo).load('partials.html #todo');
                 break;
+            case 'picIcon':
+                $($jumbo).load('partials.html #picsure');
+                break;
             default:
                 $('#about-jumbo').load('partials.html #default');
         }
