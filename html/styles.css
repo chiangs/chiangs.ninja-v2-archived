@@ -117,8 +117,14 @@ body {
 }
 
 #index-content h2 {
-    font-weight: bold;
-    color: #676767;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+#index-content #gitLink {
+    font-size: 1vw;
+    color: #2F7A94;
 }
 
 #homequote {
