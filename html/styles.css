@@ -107,7 +107,7 @@ body {
 }
 
 #index-content {
-    height:95vh;
+    height:85vh;
 }
 
 #index-content h1 {
@@ -124,7 +124,8 @@ body {
 
 #index-content #gitLink {
     font-size: 1vw;
-    color: #2F7A94;
+    border-radius: 0;
+    margin: 50px 0 0 0;
 }
 
 #homequote {
